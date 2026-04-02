@@ -1,0 +1,254 @@
+:root{
+    --bgcolor:white ;
+    --bgheader:rgb(91, 91, 194);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--bgcolor);
+}
+header{
+    height: 10vh;
+    background-color: white;
+   /* position: fixed;
+    width: 100vw;
+    margin-top:0;
+    z-index: 1;
+    background:#fff;*/
+}
+#tete{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+   /* background-color: var(--bgheader);*/
+    color:rgb(20, 20, 32);
+    
+}
+.slogan{
+    background-color: rgb(19, 19, 75);
+    color:white;
+    padding:10px;
+    text-align: center;
+}
+#entete{
+    flex: 1;
+    display: flex;
+    justify-content:;
+    align-items: center;
+    gap: 5px;
+}
+.menu2{
+    flex: 1;
+    display:flex;
+    justify-content: center;
+}
+#entete span{
+    color: rgb(196, 195, 195);
+}
+.principale ul{ 
+    display: flex;
+}
+.principale li{
+    list-style:none;
+    padding: 10px;
+}
+.principale a{
+    text-decoration: none;
+    color:black;
+}
+.principale a:hover{
+    color: rgb(196, 195, 195);
+    transition: 0.5s;
+}
+.logo{
+    border-radius: 50%;
+    width:50px;
+}
+.moi{
+    border-radius:50%;
+    width: 450px;
+    
+}
+/*main{
+     padding:10px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}*/
+
+#accueil{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  height:90vh;
+}
+.accueil1{
+    flex:1;
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.accueil2{
+    flex:1;
+}
+#taille{
+    width:40%;
+}
+.nom{
+    font-size: 3em;
+    padding-bottom:20px;
+}
+.titre{
+    font-size: 1.3em;
+}
+#bouton{
+    display: flex;
+    gap:10px;
+    padding-top: 50px;
+}
+.bouton{
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bouton a{
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+}
+.bouton1{
+    background-color: greenyellow;
+}
+.bouton2{
+    background-color: orange;
+}
+.bouton3{
+    background-color: rgb(141, 141, 233);
+}
+.bouton1:hover{
+    background-color: rgb(75, 107, 27);
+    transition: 0.5s;
+}
+.bouton2:hover{
+    background-color:rgb(116, 80, 15);
+    transition: 0.5s;
+}
+.bouton3:hover{
+    background-color: rgb(42, 42, 85) ;
+    transition: 0.5s;
+}
+.t2{
+    font-size: 2em;
+    margin-bottom: 10px;
+     
+}
+#competences{
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(91, 91, 211);
+ padding: 30px;
+ color:white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    /*border:2px solid green;*/
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.card{
+   /* border:2px solid blue;*/
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(248, 242, 233);
+    min-height:300px;
+    color: black;
+    margin:10px;
+}
+.element{
+    color: blue;
+    padding: 10px;
+    font-weight: bold;
+    font-size:1.3em ;
+}
+#projet{
+   background-color:rgb(248, 242, 233) ;
+  min-height: 30vh;
+   padding:10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.projets{
+    font-size: 2em;
+}
+#contact{
+   padding:10px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ background-color:rgb(248, 242, 233) ;
+ 
+}
+.fiche{
+background-color:rgb(26, 25, 25);
+border-radius: 10px;
+width: px;
+padding:50px;
+color: white;
+margin-bottom: 50px;
+
+}
+input,textarea{
+    background-color:rgb(27, 27, 27);
+    color: white;
+    width: 380px;
+    height:50px;
+    padding-left: 0px;
+}
+#nom{
+    margin:10px;
+}
+#email{
+    margin:10px;
+}
+#commentaire{
+    margin:10px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    height: 10vh;
+   /* position: fixed;
+    width: 100vw;
+    bottom:0;
+    z-index: 1;
+    background: #fff;*/
+}
+footer a{
+    color: black;
+    font-weight: bold;
+}
+.envoyer{
+    background-color:blue;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+    margin: 10px;
+}
+.envoyer:hover{
+    background-color:rgb(59, 59, 126);
+    transition: 0.5s;
+}
