@@ -26,12 +26,12 @@ header{
     color:rgb(20, 20, 32);
     
 }
-.slogan{
+/*.slogan{
     background-color: rgb(19, 19, 75);
     color:white;
     padding:10px;
     text-align: center;
-}
+}*/
 #entete{
     flex: 1;
     display: flex;
@@ -251,4 +251,54 @@ footer a{
 .envoyer:hover{
     background-color:rgb(59, 59, 126);
     transition: 0.5s;
+}
+@media(max-width:900px){
+/*header{
+    background-color: black;
+    color: white;
+}*/
+.menu1{
+    justify-content: center;
+}
+.menu2{
+    justify-content:center;
+}
+#tete{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+}
+.moi{
+    width:200px;
+    height: 200px;
+}
+#accueil{
+    flex-direction:column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.accueil1{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    /*height: 30%;*/
+   
+}
+.accueil2{
+    flex:1;
+    /*height: 70%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    border: 50px;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 }
